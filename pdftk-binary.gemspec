@@ -3,14 +3,16 @@ Gem::Specification.new do |s|
   s.name = 'pdftk-binary'
   s.version = '0.0.1'
   s.summary = 'Provides binaries for PDFTK project in an easily accessible package.'
-  s.description = ''
+  s.description = 'pdftk binary gem'
 
   s.required_ruby_version = '>= 1.8.7'
   s.required_rubygems_version = ">= 1.3.6"
 
   s.author = 'Eduardo Figarola'
-  s.homepage = ''
+  s.homepage = 'https://github.com/efigarolam/pdftk-binary'
   s.email = 'eduardofigarola@gmail.com'
+  s.license = 'GPL'
+
 
   s.bindir = 'bin'
   s.executables = %w(pdftk)
